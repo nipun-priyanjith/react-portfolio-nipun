@@ -12,6 +12,12 @@ import c from "../assets/projects/c.jpg";
 import c1 from "../assets/projects/c1.jpg";
 import c2 from "../assets/projects/c2.jpg";
 import c3 from "../assets/projects/c3.png";
+import f1 from "../assets/projects/f1.png";
+import f2 from "../assets/projects/f2.png";
+import f3 from "../assets/projects/f3.png";
+import f4 from "../assets/projects/f4.png";
+import cr1 from "../assets/projects/cr1.png";
+
 export const HERO_CONTENT = `Dynamic and skilled Software Engineering student in the 2nd year of BSc (Hons) Computing at NIBM, seeking a software engineering internship to gain real-world experience. With foundational knowledge in cloud technologies such as AWS and Firebase, I am eager to contribute to innovative projects and gain hands-on experience in a collaborative team. `;
 
 export const ABOUT_TEXT = `I'm an undergraduate software engineering student who enjoys breaking down complex problems into smaller parts and solving them effectively. I aim to leverage robust programming skills and continuous learning to contribute to software development, collaborate effectively with experienced engineers, and ensure team success in meeting project deadlines.`;
@@ -75,6 +81,21 @@ export const PROJECTS = [
       "Harnessing Rapid Learning Skills to Excel in React, Redux, Tailwind CSS, and E-commerce Integration for an Exceptional Project Outcome. Leveraging Proficiency in Cloud Database Management to Ensure Optimal Backend Performance and Scalability.",
     technologies: ["React", "Redux", "Firebase", "tailwind_css","React-Toastify","Firebase_Auth_Service"],
     link:["https://github.com/nipun-priyanjith/chandra-texttiles/"]
+  },  {
+    title: "Tech Expo Robot",
+    image: [f1,f2,f3,f4],
+    description:
+      "Developed an interactive robot interface using Tkinter and Python, featuring text-to-speech with pyttsx3. The robot presents exhibit information with animated eye and mouth expressions, responding to user clicks and delivering engaging messages. This project highlights my skills in GUI development and multimedia integration.",
+    technologies: ["Python", "Tkinter", "pyttsx3", "PIL", "Threading"],
+    link:["https://github.com/nipun-priyanjith/Tech_Expo_Robot_2024/"]
+  },
+  {
+    title: "Casper - Smart Home Control System",
+    image: [cr1],
+    description:
+      "Currently developing a smart home control system using Flutter for mobile-to-ESP32 communication. The system integrates voice commands for controlling devices, receives photos from an ESP32 camera, and monitors motion sensors for home security. The app also utilizes Firebase Authentication for user management.",
+    technologies: ["Flutter", "Dart", "ESP32",   "Firebase", "ESP32-CAM"],
+    link:["https://github.com/nipun-priyanjith/Casper/"]
   },
   // {
   //   title: "Caspar",
